@@ -1,6 +1,8 @@
 import { Request, Response } from 'express';
 
 const app = require('./app').default;
+const db = require('./config/db');
+const userModel = require('./model/user_model');
 
 const port = 3001;
 
