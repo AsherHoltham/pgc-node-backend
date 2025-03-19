@@ -8,3 +8,9 @@ npx ts-node index.ts
 }
 
 So I can use: "npm start" to run app
+
+//Mongo db local db:
+
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
