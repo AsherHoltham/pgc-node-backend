@@ -1,0 +1,10 @@
+// To run typescript files:
+npx ts-node index.ts
+
+-- Added: 
+
+"scripts": {
+  "start": "ts-node index.ts"
+}
+
+So I can use: "npm start" to run app
