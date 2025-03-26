@@ -16,3 +16,8 @@ brew install mongodb-community
 brew services start mongodb-community
 
 // ✅ is \u2705
+
+//Docker:
+
+docker build -t pgc_backend .
+docker run -p 3001:3001 pgc_backend
